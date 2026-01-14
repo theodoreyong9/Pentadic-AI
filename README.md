@@ -115,7 +115,6 @@ like purity in Haskell.
 
 ## Type-Level Residuality (Sketch)
 
-```haskell
 data Residuality = Trivial | NonTrivial
 
 newtype Process (r :: Residuality) a b =
